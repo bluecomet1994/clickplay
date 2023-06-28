@@ -1,0 +1,1556 @@
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+body {
+  background-color: #F5F6FB;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol" !important;
+}
+
+.up {
+  width: 100%;
+  padding-bottom: 25px;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+}
+
+.AppMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.HeaderMain {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 80px;
+  background: #171934;
+  color: white;
+}
+
+.HeaderUl {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+}
+
+.FooterMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid black;
+  width: 100%;
+  min-height: 100px;
+  background: #212529;
+  color: white;
+  flex-wrap: wrap;
+  margin-top: 0px;
+  padding: 30px 0px 0px 0px;
+}
+
+.footerText {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.follow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-icons {
+ font-size: 24px;
+ margin: 10px;
+}
+
+.footer-icons:hover {
+  color: white;
+}
+
+.footer-icon-mouse{
+  margin-right: 15px;
+  height: 38px;
+  width: 38px;
+}
+
+.FooterMain ul {
+  padding: 0px;
+  justify-content: center;
+  align-items: center;
+  list-style: "|";
+  display: flex;
+}
+
+.Foot .HeaderContainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.each-footer-link{
+  cursor: pointer;
+  font-size: 15px !important;
+  font-weight: 300 !important;
+}
+
+.FooterContainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.Foot {
+  max-width: 1200px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 70px;
+  width: 85%;
+}
+
+.footer-button-mouse{
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  color: white !important;
+}
+
+.mobile-icon-header {
+  opacity: 0.80;
+  width: 23px;
+  height: 23px;
+  margin-right: 7px;
+}
+.sidebar-wrapper {
+ background-color: #0000003b;
+ position: fixed;
+ height: 100vh;
+ width: 100vw;
+ top: 0px;
+ left: 0px;
+}
+
+.side-bar-body {
+  overflow-y: scroll;
+  background-color: #212529 !important;
+}
+
+.ps-sidebar-container{
+  background-color: #212529 !important;
+}
+
+.item-menu-sidebar{
+  background-color: #212529 !important;
+  font-size: 18px;
+  height: 46px !important;
+  overflow: hidden;
+}
+
+.item-menu-sidebar > a:hover{
+  background-color: #2b3035 !important;
+}
+.sub-menu-sidebar > a:active{
+  background-color: #2b3035 !important;
+}
+.sub-menu-sidebar > a:hover{
+  background-color: #2b3035 !important;
+}
+
+.active-menu {
+  background-color: #2b3035 !important;
+}
+
+.menu-item-icons{
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  color: #383f46;
+}
+
+.mobile-header-text {
+  font-weight: 800;
+  font-size: 18px;
+  margin: 0px;
+  color: #383f46;
+  line-height: 38px;
+}
+
+.close-button-mobile {
+  height: 25px;
+  width: 25px;
+  opacity: 0.80;
+  cursor: pointer;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  width: 80%;
+  max-width: 1300px;
+  flex-wrap: wrap;
+}
+
+.sharebar-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 75%;
+  max-width: 650px;
+}
+
+.default-button {
+  box-sizing: none;
+  min-width: 130px !important;
+  height: 40px !important;
+  border-radius: 5px !important;
+  background: #212529 !important;
+  outline: none !important;
+  color: white !important;
+  border: 1px solid transparent !important;
+  box-shadow: 3px 2px 2px rgba(0,0,0,.2) !important;
+  text-transform: capitalize !important;
+  display: flex !important;
+  justify-content: space-evenly !important;
+  align-items: center !important;
+  padding: 7px 10px !important;
+  margin: 20px !important;
+  font-weight: 500 !important;
+  
+}
+
+.incompatible-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px dashed #212529;
+  border-radius: 0px !important;
+  margin: 120px 15px 0px 15px !important;
+  padding: 30px 15px 0px 15px !important;
+}
+
+.social-outline {
+  background: white !important;
+  border: 1px solid #212529 !important;
+  box-shadow: none !important;
+  color: #212529 !important;
+}
+
+.social-row{
+   display: flex;
+   flex-direction: row;
+}
+
+.social-text {
+  margin: 0px;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.icons div {
+  width: 50%;
+  display: flex;
+  max-width: 600px;
+  min-width: 350px;
+}
+
+.icons a {
+  padding: 7px 25px;
+  background-color: #4267B2;
+  border-radius: 5px;
+  margin-left: 20px;
+  text-align: center;
+  width: 20%;
+  min-width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  margin: auto;
+  color: white;
+  cursor: pointer;
+}
+
+.icons a:hover {
+  opacity: 0.85;
+
+}
+
+@media only screen and (max-width: 1200px) {
+  .icons {
+    flex-direction: column;
+  }
+
+  .icons div {
+    width: 100%;
+    max-width: none;
+    justify-content: space-around;
+  }
+
+  .icons a {
+    margin: 10px 0px;
+    width: 25%;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  .icons div {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-width: 0px;
+  }
+
+  .icons a {
+    width: 60%;
+    margin: 10px 0px;
+  }
+}
+
+.FooterMain ul * {
+  padding: 6px;
+}
+
+.aboutGames {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1600px;
+  flex-wrap: wrap;
+  margin: auto;
+  background-color: transparent;
+  gap: 30px;
+}
+
+.about-game-row{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   gap: 60px;
+}
+
+.more-game-box {
+  cursor: pointer;
+  width: 185px;
+  flex-direction: column;
+  background: #edf1f6;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.aboutGames .info {
+  background: #2e3236;
+  border-radius: 5px;
+  padding: 10px 30px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  margin: 50px 0px 5px 0;
+  white-space: nowrap;
+}
+
+.whiteCircle {
+  width: 100px;
+  height: 100px;
+  border-radius: 70%;
+  background: white;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scroll-dashboard {
+  margin: 0px;
+}
+
+.HeaderContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5px;
+}
+
+.clickPlay {
+  display: flex;
+  align-items: center;
+}
+
+.clickPlay button {
+  color: white;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  display: flex;
+}
+
+.HeaderContainer button {
+  background: none !important;
+  display: flex;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  align-items: center;
+}
+
+.HeaderMenu {
+  display: flex;
+  align-items: center;
+}
+
+.HeaderMenuTypes {
+  padding: 0px 15px;
+  cursor: pointer;
+  align-items: center;
+  font-size: 1.1rem
+}
+
+.SettingsTimer {
+  width: 100%;
+  max-width: 800px;
+  text-align: -webkit-center;
+}
+
+.statText {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.floating-stats {
+  display: flex;
+  flex-direction: row;
+  gap: 20%;
+  margin-right: 20%;
+}
+
+.timer{
+ display: flex;
+ flex-direction: column-reverse;
+ justify-content: center;
+}
+
+.statusBox{
+  background-color: #212529;
+  border-radius: 10px;
+}
+
+.stats-text{
+   font-size: 14px;
+   margin: 0px;
+   white-space: nowrap;
+}
+
+.innerStatusBox {
+  width: 55px;
+  height: 36px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 15px;
+  border: 1px solid #95989b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #2e3236;
+}
+
+
+.clickpersecond{
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+
+
+.scrollHeader {
+  height: 70px;
+  width: 100%;
+  background-color: #212529 !important;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.SettingsClickTypeMain {
+  margin-top: 20px;
+  max-width: 800px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.SettingsTimerBtn {
+  background: grey;
+  color: white;
+  width: 100%;
+  margin: 0px;
+  text-align: center !important;
+  padding: 6px !important;
+  min-width: 40px !important;
+  text-transform: none !important;
+  cursor: pointer;
+  /* border: 1px solid #171934 !important; */
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  border: 1px solid #212529;
+  border-bottom: 1px solid #50546b;
+}
+.SettingsTimerBtn:hover {
+  /* color: #171934 !important; */
+  background: #3f474f !important;
+}
+
+.SettingsClickTypeTitle {
+  text-align: center;
+}
+
+.clicker-container{
+  max-width: 720px;
+  width: 100%;
+  margin-right: 30px;
+}
+
+.SettingsClickTypeBtnGroup {
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.SettingsClickTypeBtnGroup .SettingsClickTypeBtn {
+  min-width: 0;
+
+}
+
+.SettingsClickTypeBtn {
+  flex-basis: 40% !important;
+  min-width: 150px !important;
+  margin: 5px 0px !important;
+  text-transform: none !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 22px !important;
+  line-height: 30px !important;
+  text-align: center !important;
+  border: 1px solid transparent !important;
+}
+
+.jitter{
+  background: #212529 !important;
+  margin: 0px 15px 0px 0px !important;
+
+}
+
+.jitter:hover {
+  background: white !important;
+  border: 1px solid #212529 !important;
+  box-shadow: none !important;
+  color: #212529 !important;
+}
+.kohi{
+  background:  #212529 !important;
+  margin: 0px !important;
+}
+.kohi:hover {
+  background: white !important;
+  border: 1px solid #212529 !important;
+  box-shadow: none !important;
+  color: #212529 !important;
+}
+
+.upText {
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.alternative-game-mobile{
+  margin-top: 15px;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.alternative-game-mobile label {
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 17px;
+
+}
+
+.DashBoardMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 5px;
+  max-width: 720px;
+  border: none;
+  margin-right: 30px;
+  box-sizing: border-box;
+}
+
+.HeaderLogo {
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 44px;
+  letter-spacing: 2px;
+
+}
+
+.FooterLogo{
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 44px;
+  letter-spacing: 2px;
+}
+
+.scroll-test{
+  
+}
+
+.mainStatistics {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #212529;
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  position: relative;
+  height: 80px;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.dashboard-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.DashBoardBoard {
+  width: 100%;
+  background: white;
+  
+}
+
+.game-options {
+  padding: 20px 10px;
+  width: 200px;
+  height: 410px;
+  border-radius: 5px;
+  background-color: #212529;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.DashBoardBoardBtn {
+  display: flex !important;
+  width: 100% !important;
+  height: 330px !important;
+  border: 1px solid rgb(175 175 175) !important;
+  font-size: 22px !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  text-transform: none !important;
+  align-items: center !important;
+  background: none;
+  color: #212529;
+  outline: none;
+  position: relative;
+  overflow: hidden;
+}
+
+.typingTest-text-wrapper {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  border: 1px solid rgb(151, 151, 184);
+  flex-wrap: wrap;
+  justify-content: center;
+  text-transform: none;
+  align-items: center;
+  background: none;
+  overflow: hidden;
+  background-color: #1D1313;
+}
+
+.typing-text-scroll-area {
+  font-size: 40px;
+  padding: 0 20px;
+  text-align: center;
+  line-height: 2.5;
+  transition: transform 0.5s ease-in-out;
+}
+
+.main {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: 0px 30px;
+}
+
+.click-speed-test-btn{
+  font-weight: 400 !important;
+  margin: 20px 0px 0px 0px !important;
+  transition: ease-in-out 0.2s;
+}
+
+.click-speed-test-btn:hover{
+    background: white !important;
+    border: 1px solid #212529 !important;
+    box-shadow: none !important;
+    color: #212529 !important;
+  
+}
+
+.reset-typing{
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 50% !important;
+  background-color: transparent;
+  color: #F5F6FB;
+  outline: none;
+  border: none;
+  position: absolute;
+  right: 20px;
+}
+
+.space-type{
+  display: inline-block;
+  width: 12px;
+  height: 30px;
+  transform: translateY(5px);
+  position: relative;
+}
+
+
+
+.icon-restart{
+   height: 35px !important;
+   width: 35px !important;
+}
+
+.typing-area{
+  width: 100%;
+  height: 210px;
+  border: 1px solid rgb(175 175 175) !important;
+  position: relative;
+  font-size: 24px;
+  letter-spacing: 1px;
+  padding: 14px 20px;
+  line-height: 60px;
+  overflow: hidden;
+}
+
+.each-letter{
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  width: 13px;
+  transition: top 0.3s ease-in-out;
+  text-transform: lowercase !important;
+}
+
+.active {
+   background-color: #212529;
+   color: white;
+}
+
+.type-input-area{
+   width: 100%;
+   height: 100%;
+   outline: none;
+   border: none; 
+   opacity: 0;
+   position: absolute;
+   left: 0px;
+   top: 0px;
+}
+
+.typing-container{
+  display: flex;
+  flex-direction: column;
+  height: 320px;
+}
+
+.start-type{
+ height: 60px;
+ width: 100%;
+ margin-top: 40px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ font-size: 1.2rem;
+ font-weight: 400;
+ font-family: "Segoe UI" !important;
+ border-radius: 5px;
+}
+
+.StatisticClickItem {
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  color: white !important;
+  font-size: 22px;
+  margin-top: 4px;
+  
+}
+
+.moreGames{
+  padding-top: 50px;
+}
+
+.moregames-text {
+  font-size: 55px;
+  color: #2e3236;
+  text-align: center;
+  margin-bottom: 30px;
+  
+}
+
+.StatisticClickItem button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 10px;
+  color: white !important;
+}
+
+.StatisticClickItem p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first {
+  padding: 0px;
+  border: 1px solid white;
+  background-color: white;
+  margin-top: 15px;
+  max-height: 25px;
+}
+
+.SettingsTypingTimer button {
+  border: none;
+  cursor: pointer;
+  background: none;
+  padding: 10px;
+  color: white !important;
+}
+
+.more-pages-title{
+ margin: 40px 0px;
+}
+
+.SettingsTypingTimer {
+  border: 1px solid black;
+  background: #45a29e;
+  border-radius: 15px;
+  width: 30%;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.SettingsTypingText {
+  border: 1px solid black;
+  background: #4B4B4B;
+  border-radius: 15px;
+  width: 60%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SettingsTypingText input {
+  background: #4B4B4B;
+  border: none;
+  width: 90%;
+  padding: 5px;
+  color: white;
+}
+
+.SettingsTypingRefreshBtn {
+  border: 1px solid black;
+  background: none;
+  border-radius: 15px;
+  width: 10%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ui-score {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.DescriptionMain {
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #212529;
+  align-items: center;
+  width: 100%;
+  max-width: 950px !important;
+}
+
+.DescriptionMain h1 {
+  margin: auto;
+  margin-bottom: 40px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 61px;
+  text-align: center;
+}
+.DescriptionMain h2 {
+  margin: 20px 0px;
+}
+.cl-wh {
+  color: white !important;
+}
+
+.cl-bl {
+  color: black !important;
+}
+
+.share {
+  width: 100%;
+  text-align: center;
+  background: #F5F6FB;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.share h2 {
+  font-style: normal;
+  font-weight: 600;
+  /* font-size: 34px; */
+  line-height: 46px;
+  text-align: center;
+}
+
+
+.Dialog .MuiPaper-root {
+  width: 400px !important;
+  height: 400px !important;
+  background-color: #212529 !important; 
+  overflow: hidden;
+}
+
+.Dialog .MuiPaper-root p {
+  color: white !important;
+}
+
+.Dialog .MuiPaper-root h2 {
+  color: white !important;
+}
+
+@keyframes pop {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+}
+.Dialog .MuiPaper-root .MuiButton-root {
+  color: white !important;
+  position: relative !important;
+  background: rgb(250, 175, 0) !important;
+  bottom: 30% !important;
+  margin-left: 20px !important;
+  animation-name: pop;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+.play-again-container{
+   display: flex !important;
+   flex-direction: row !important;
+   align-items: flex-start !important;
+   padding: 5px !important;
+}
+
+
+.Dialog .MuiPaper-root .MuiButton-root:hover {
+  background-color: #dd9b00 !important;
+  transition: background-color 0.65s ease !important;
+}
+
+.circles {
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  position: absolute;
+  z-index: 999;
+  
+  > div {
+    animation: growAndFade 1s infinite ease-out;
+    background-color: rgb(0, 137, 190);
+    border-radius: 50%;
+    height: 100%;
+    opacity: 0;
+    width: 100%;
+  }
+ 
+}
+
+.circle1 {
+  z-index: 1000;
+}
+
+@keyframes growAndFade {
+  0% {
+    opacity: .25;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  }
+}
+
+
+
+.scrollBtn {
+  transform-origin: center;
+  display: flex;
+  color: #212529 !important;
+  width: 100% !important;
+  height: 300px !important;
+  border: 1px solid rgb(151, 151, 184) !important;
+  display: flex !important;
+  font-size: 22px !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  text-transform: none !important;
+  align-items: center;
+  flex-direction: column;
+  background: #ffffff;
+}
+
+.option-lists {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  width: 130px;
+}
+
+.timerOptions{
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+width: 100%;
+}
+
+.timerOptions2{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.default-nav{
+  height: 75px;
+  position: fixed;
+  width:  100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.header-container {
+  max-width: 950px !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.mobile-jitter-kohi-button{
+  display: none;
+}
+
+.header-mouse-icon-white {
+  width: 40px;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 1100px) {
+
+  .clickPlay{
+  }
+
+  .header-mouse-icon-white {
+    width: 35px;
+  }
+
+  .HeaderLogo{
+    display: none;
+  }
+
+  .default-nav{
+    flex-direction: row-reverse;
+  }
+}
+@media only screen and (max-width: 1024px) {
+
+  .SettingsClickTypeMain{
+    display: none;
+  }
+
+  .clickPlay{
+    margin-left: 20px;
+  }
+
+  .mobile-jitter-kohi-button{
+    display: flex !important;
+    margin: auto !important;
+  }
+
+  .SettingsClickTypeBtnGroup{
+    justify-content: center !important;
+  }
+
+  .DashBoardMain{
+   margin-right: 0px;
+
+  }
+
+  .clicker-container{
+    margin: 0px;
+  }
+
+  .dashboard-container {
+    flex-direction: column;
+    padding: 0px 10px;
+    align-items: center;
+  }
+
+  .game-options {
+    width: 100%;
+    max-width: 720px;
+    background-color: transparent;
+    max-height: 150px;
+  }
+
+  .option-lists {
+    width: 100%;
+    display: flex;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+  }
+
+  .timerOptions{
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+  }
+
+  .timerOptions2{
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+  }
+
+  .SettingsTimerBtn{
+    max-width: 140px;
+    white-space: nowrap;
+    flex-basis: 25%;
+    border-radius: 5px;
+    border: 1px solid white;
+  }
+  
+  .DescriptionMain{
+    max-width: 720px !important;
+  }
+}
+
+@media only screen and (max-width: 800px){
+  .sharebar-container{
+     flex-direction: column !important;
+  }
+
+  .reverse-social{
+    flex-direction: row-reverse;
+  }
+
+  .default-button{
+    margin: 20px 10px !important;
+  }
+  .social-row{
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  
+  .DescriptionMain{
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+
+  .upText {
+    width:90%;
+  }
+
+  .footer-icon-mouse {
+    height: 30px;
+    margin-right: 5px;
+  }
+
+  .upText h1 {
+    font-size: 23px !important;
+  }
+  
+  .upText p {
+    font-size: 18px !important;
+  }
+  
+  .SettingsClickTypeBtnGroup {
+    width: 100% !important;
+    justify-content: center;
+  }
+
+  .SettingsClickTypeMain {
+    flex-direction: column;
+  }
+
+  .main>div {
+    width: 100% !important;
+    padding: 0px !important;
+    margin-top: 10px;
+  }
+
+  .statText {
+    justify-content: center;
+    margin-left: 0;
+  }
+
+
+  .StatisticClickItem {
+    justify-content: center;
+  }
+
+  .Foot  {
+    width: 90%;
+  }
+
+  .FooterMain ul {
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    margin-bottom: 15px;
+  }
+
+  .FooterMain{
+    padding-top: 20px;
+  }
+
+  .SettingsTimerBtn{
+    font-size: 0.9rem;
+    max-width: 110px;
+  }
+
+  .footerText{
+    font-size: 17px;
+  }
+
+  .FooterLogo{
+    font-size: 17px;
+  }
+  .HeaderContainer button {
+    flex-direction: column-reverse;
+  }
+
+  .typing-area{
+    font-size: 22px;
+  }
+  
+  .space-type{
+    height: 28px;
+  }
+  .start-type{
+    font-size: 22px;
+  }
+
+  .aboutGames {
+    gap: 0px;
+  }
+  
+  .about-game-row{
+     gap: 0px;
+  }
+
+  .footer-icons{
+  font-size: 20px;
+  }
+}
+@media only screen and (max-width: 600px) {
+ .floating-stats {
+   gap: 20px;
+   margin-right: 10%;
+
+ }
+
+ .moregames-text{
+  font-size: 30px;
+ }
+
+ .statText {
+   font-size: 15px;
+ }
+ 
+ .typing-area{
+  font-size: 20px;
+}
+.start-type{
+  font-size: 20px;
+}
+
+.space-type{
+  height: 26px;
+}
+
+}
+
+@media only screen and (max-width: 500px){
+  
+  .timerOptions{
+    flex-direction: column;
+  }
+
+  .timerOptions2{
+    flex-direction: column;
+
+  }
+
+  .SettingsTimerBtn{
+    margin-bottom: 8px !important;
+  }
+
+  .option-lists{
+    flex-direction: row !important;
+    margin-top: 50px;
+  }
+
+  .game-options{
+    max-height: 190px !important;
+  }
+
+  .more-game-box{
+    width: 150px;
+    margin: 10px;
+    padding: 10px;
+  }
+  .aboutGames .info{
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 400px) {
+
+ .moregames-text{
+  font-size: 30px;
+ }
+
+ .statText {
+   font-size: 15px;
+ }
+ 
+ .typing-area{
+  font-size: 16px;
+}
+
+  .start-type{
+    font-size: 16px;
+  }
+  
+  .SettingsTimerBtn{
+    font-size: 0.8em;
+  }
+  
+  .space-type{
+    height: 20px;
+  }
+
+}
+
+.TypeInput {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  margin-top: 15px;
+}
+.privacy{
+  margin-top: 50px;
+  background-color: #F5F6FB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 20px;
+  width: 100%;
+  max-width: 950px;
+  
+}
+
+.contact {
+   height: 100vh;
+}
+
+.contact-body{
+  margin-top: 50px;
+  background-color: #F5F6FB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 20px;
+  width: 100%;
+  max-width: 950px;
+}
+
+.contact-text{
+  color: #212529;
+}
+
+.contact-us-email{
+   width: 100%;
+   max-width: 700px;
+   border: 1px solid #212529;
+   padding: 35px 30px;
+   margin-top: 20px;
+   text-align: justify;
+}
+
+.error{
+   width: 200px !important;
+   margin-top: 50px;
+}
+
+.error-text {
+  font-size: 14px !important;
+}
+
+.incompatible-device-error{
+  align-items: center;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.muti_sign{
+  width: fit-content;
+  cursor: pointer;
+  float: right;
+  margin-bottom: 0px;
+  font-size: 30px;
+  height: 10px;
+}
+.css-hlj6pa-MuiDialogActions-root{
+  justify-content: center !important;
+}
+
+.bg-theme {
+   background-color: #212529;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-family: "Segoe UI";
+}
+body {
+  font-size: 16px;
+  font-family: "Segoe UI";
+}
+nav {
+  background: #222;
+  padding: 0 15px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
