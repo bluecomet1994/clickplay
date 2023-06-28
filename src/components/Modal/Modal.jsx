@@ -7,7 +7,6 @@ import DialogContent from "@mui/material/DialogContent";
 import DialogContentText from "@mui/material/DialogContentText";
 import DialogTitle from "@mui/material/DialogTitle";
 import HoverRating from "./Rating";
-import { useLocation } from "react-router-dom";
 import useContext from "@/hooks/rootContext/useContext";
 import resolvePath from "@/utils/pathResolver";
 import { useRouter } from "next/router";

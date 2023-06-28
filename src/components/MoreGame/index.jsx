@@ -1,5 +1,4 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 import { MdOutlineKeyboardAlt } from "react-icons/md";
 import { CgScrollV } from "react-icons/cg";
 import { FcCursor } from "react-icons/fc";

@@ -1,11 +1,11 @@
 import React, { useEffect, useRef, useState } from "react";
+import { useRouter } from "next/router";
 import potentiallyTypingText from "@/hooks/giveTypingText/giveTypingText";
 import useContext from "@/hooks/rootContext/useContext";
 import useOperator from "@/hooks/rootContext/useOperator";
 import matchTypedItems from "@/utils/matchedTypesItems";
 import fetchRandomItems from "@/utils/fetchRandomItems";
 import pathResolver from "@/utils/pathResolver";
-import { useRouter } from "next/router";
 
 let timeOut;
 
@@ -156,6 +156,8 @@ export const Board = () => {
       startTypingTest();
     }
 
+    console.log(isBlurred);
+
     setTypingText(e.target.value);
 
     if (typingText.length === maximumCharPerBox - 2 - generatedWords.join(" ").length) {
@@ -173,7 +175,7 @@ export const Board = () => {
   const inputRef = useRef(null);
 
   useEffect(() => {
-    if (router?.pathname.includes("Typing")) {
+    if (router?.pathname.includes("typing-speed-test")) {
       var handleBlur = () => {
         setIsBlurred(true);
       };
@@ -214,8 +216,8 @@ export const Board = () => {
             {/* Click me start Test */}
           </button>
         );
-      case "/Spacebar":
-      case "/Spacebar/":
+      case "/spacebar-counter":
+      case "/spacebar-counter/":
         return (
           <button
             autoFocus
@@ -227,8 +229,8 @@ export const Board = () => {
             {/* Click me start Test */}
           </button>
         );
-      case "/spacebar-counter":
-      case "/spacebar-counter/":
+      case "/scroll-test":
+      case "/scroll-test/":
         return (
           <button className="scrollBtn" onWheel={onWheel} ref={wheelTimeout}>
             <p style={{ margin: "0px", fontSize: "50px" }}>
@@ -245,9 +247,7 @@ export const Board = () => {
             <div className="typing-area" ref={divRef}>
               <input
                 value={typingText}
-                onChange={(e) => {
-                  startTyping(e);
-                }}
+                onChange={(e) => startTyping(e)}
                 className="type-input-area"
                 ref={inputRef}
               />

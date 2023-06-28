@@ -1,6 +1,5 @@
 import { Button } from "@mui/material";
 import React, { useEffect, useState } from "react";
-import { useNavigate, useLocation, useParams } from "react-router-dom";
 import useContext from "@/hooks/rootContext/useContext";
 import useOperator from "@/hooks/rootContext/useOperator";
 import paramsResolver from "@/utils/paramsResolver";

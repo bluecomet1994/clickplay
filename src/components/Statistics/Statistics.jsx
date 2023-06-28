@@ -43,8 +43,11 @@ export const Statistics = () => {
                   Highscore:{" "}
                   <span
                     style={{
+                      fontSize: "20px",
+                      fontWeight: "bold",
                       padding: "5px 30px",
                       background: "#2e3236",
+                      color: "orange",
                       borderRadius: "5px",
                       marginLeft: "15px",
                       border: "1px solid #95989b",

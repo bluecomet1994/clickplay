@@ -1,9 +1,9 @@
 import React, { useEffect, useState, memo } from "react";
+import { useRouter } from "next/router";
 import { MenuText } from "./MenuText/MenuText";
 import SimpleMenu from "./SimpleMenu/SimpleMenu";
-import { useContext } from '../../hooks/rootContext/useContext';
-import { useOperator } from '../../hooks/rootContext/useOperator';
-import { useRouter } from "next/router";
+import useContext from '@/hooks/rootContext/useContext';
+import useOperator from '@/hooks/rootContext/useOperator';
 import './style.module.css';
 
 const Header = () => {
@@ -14,10 +14,10 @@ const Header = () => {
   const { changeTestType } = useOperator();
 
   const links = [
-    { id: "1", text: "Click speed test", type: "Click", defTime: 5000 },
-    { id: "2", text: "Spacebar counter", type: "Spacebar", defTime: 5000 },
-    { id: "3", text: "Scroll speed test", type: "Scroll", defTime: 1000 },
-    { id: "4", text: "Typing test", type: "Typing", defTime: 30000 },
+    { id: "1", text: "Click speed test", type: "Click", href: "/cps", defTime: 5000 },
+    { id: "2", text: "Spacebar counter", type: "Spacebar", href: "/spacebar-counter", defTime: 5000 },
+    { id: "3", text: "Scroll speed test", type: "Scroll", href: "/scroll-test", defTime: 1000 },
+    { id: "4", text: "Typing test", type: "Typing", href: "/typing-speed-test", defTime: 30000 },
   ];
 
   const updateDimensions = () => {

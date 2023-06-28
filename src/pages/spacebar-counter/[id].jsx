@@ -1,20 +1,19 @@
 import React from "react";
-import { DashBoard } from "../../DashBoard/DashBoard";
-import { Description } from "../../Description/Description";
-import "../../App.css";
-import Modal from "../../Modal/Modal";
-import Share from "../../share";
-import MoreGame from "../../moreGame";
-import { Timer } from "../../Settings/Timer";
+import { Button } from "@mui/material";
 import { BrowserView, MobileView } from "react-device-detect";
-import { useNavigate } from "react-router-dom";
+import { DashBoard } from "@/components/DashBoard/DashBoard";
+import { Description } from "@/components/Description/Description";
+import Modal from "@/components/Modal/Modal";
+import Share from "@/components/Share";
+import MoreGame from "@/components/MoreGame";
+import { Timer } from "@/components/Settings/Timer";
 import useContext from "@/hooks/rootContext/useContext";
 import useOperator from "@/hooks/rootContext/useOperator";
-import Helmet from "../../layouts/Helmet/Helmet";
-import { Button } from "@mui/material";
+import Helmet from "@/layouts/Helmet/Helmet";
+import { useRouter } from "next/router";
 
 const SpaceBar = () => {
-  const navigate = useNavigate();
+  const router = useRouter();
   const { data, open } = useContext();
   const { changeTimer, changeTestType, changeClickType, handelCloseDialog } =
     useOperator();
@@ -59,7 +58,7 @@ const SpaceBar = () => {
                 className="default-button error"
                 onClick={() => {
                   changeTestType("Click", 5000);
-                  navigate("/");
+                  router.push("/");
                 }}
                 size="sm"
               >
@@ -70,7 +69,7 @@ const SpaceBar = () => {
                 className="default-button error"
                 onClick={() => {
                   changeTestType("Typing", 5000);
-                  navigate("/Typing");
+                  router.push("/typing-speed-test");
                 }}
                 size="sm"
               >

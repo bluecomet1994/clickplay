@@ -324,7 +324,7 @@ export const Description = ({ type, changeTestType }) => {
               started:
               <br />
               <br />
-              <div style={{ marginLeft: "30px" }}>
+              <span>
                 ● <b>Use the rolling technique:</b> As mentioned earlier, using
                 the rolling technique can significantly improve your clicking
                 speed.
@@ -339,7 +339,7 @@ export const Description = ({ type, changeTestType }) => {
                 <br />● <b>Challenge yourself:</b> Challenging yourself by
                 setting new goals and trying different timing modes can help you
                 push your limits and improve your performance.
-              </div>
+              </span>
             </p>
             <h2>Making the Space bar Counter a Fun Game Challenge </h2>
             <p>
@@ -392,9 +392,7 @@ export const Description = ({ type, changeTestType }) => {
               test your skills, our scroll wheel test is helpful for people
               requiring quick response times with precise scrolling.
             </p>
-            <h2>
-              <h2>What Is The Mouse Scroll Test ?</h2>
-            </h2>
+            <h2>What Is The Mouse Scroll Test ?</h2>
 
             <p>
               Scroll speed is essential to navigating web pages quickly and
@@ -413,6 +411,7 @@ export const Description = ({ type, changeTestType }) => {
               Mouse scroll tests are also helpful for testing your mouse or
               track pad&#39;s functionality and responsiveness.
             </p>
+
             <h2>Vertical Versus Horizontal Scrolling</h2>
             <p>
               Mouse scroll tests assess your scroll speed in one of two ways;
@@ -435,6 +434,7 @@ export const Description = ({ type, changeTestType }) => {
               precision. So be sure to test your skills in both! challenge your
               most formidable gaming opponents!
             </p>
+
             <h2>How Does This Scroll Speed Test Work?</h2>
 
             <p>
@@ -461,11 +461,12 @@ export const Description = ({ type, changeTestType }) => {
               You can also share your score on social media to impress your
               friends and even turn it into a TikTok challenge or competition.
             </p>
+
             <h2>Why Should You Use Our Mouse Scroll Test?</h2>
             <p>
               Our scroll wheel test offers several advantages to help you
               improve your scrolling skills. These include:
-              <div style={{ marginLeft: "30px" }}>
+              <span>
                 {" "}
                 <br />● Lightning loading times make the scrolling test quick
                 and straightforward.
@@ -478,8 +479,9 @@ export const Description = ({ type, changeTestType }) => {
                 with your friends and improve upon.
                 <br />● High Score Tracking: Record your personal bests
                 (horizontal or vertical).
-              </div>
+              </span>
             </p>
+
             <h2>
               What Score Can I Expect to Achieve with the Scroll Speed Test?{" "}
             </h2>
@@ -511,6 +513,7 @@ export const Description = ({ type, changeTestType }) => {
               feature not typically found on out-of-the-box mouse&#39;s or track
               pads.
             </p>
+
             <h2>Tips to Increase Your Scroll Speed</h2>
             <p>
               You can increase your scroll speed and accuracy through the
@@ -919,7 +922,7 @@ export const Description = ({ type, changeTestType }) => {
               type faster:
               <br />
             </p>
-            <div style={{ marginLeft: "30px" }}>
+            <span>
               <h3 className="fw-500 fs-5">
                Practice and test typing speed
                 regularly{" "}
@@ -989,7 +992,7 @@ export const Description = ({ type, changeTestType }) => {
                 ergonomic and provides adequate support for your hands and
                 wrists.
               </p>
-            </div>
+            </span>
             <h2>
               Try our typing test and start improving your typing skills today{" "}
             </h2>

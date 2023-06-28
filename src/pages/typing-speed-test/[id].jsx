@@ -1,23 +1,20 @@
 import React from "react";
-import { DashBoard } from "../../DashBoard/DashBoard";
-import { Description } from "../../Description/Description";
-import "../../App.css";
-import Modal from "../../Modal/Modal";
-import Share from "../../share";
-import MoreGame from "../../moreGame";
-import { Timer } from "../../Settings/Timer";
-import useContext from "../../Hooks/rootContext/useContext";
-import useOperator from "../../Hooks/rootContext/useOperator";
-import Helmet from "../../layouts/Helmet/Helmet";
+import { DashBoard } from "@/components/DashBoard/DashBoard";
+import { Description } from "@/components/Description/Description";
+import Modal from "@/components/Modal/Modal";
+import Share from "@/components/Share";
+import MoreGame from "@/components/MoreGame";
+import { Timer } from "@/components/Settings/Timer";
+import useContext from "@/hooks/rootContext/useContext";
+import useOperator from "@/hooks/rootContext/useOperator";
+import Helmet from "@/layouts/Helmet/Helmet";
 
 const Typing = () => {
   const { data, open } = useContext();
-  const { changeTimer, changeTestType, changeClickType, handelCloseDialog } =
-    useOperator();
+  const { changeTimer, changeTestType, changeClickType, handelCloseDialog } = useOperator();
 
-  const description =
-    "Test your typing speed and accuracy with our online Typing Speed Test. Find out how many words you can type per minute and enhance your typing skills with this engaging challenge.";
   const title = "Typing Test Speed - How fast can you type?";
+  const description = "Test your typing speed and accuracy with our online Typing Speed Test. Find out how many words you can type per minute and enhance your typing skills with this engaging challenge.";
 
   return (
     <div style={{ width: "100%" }}>

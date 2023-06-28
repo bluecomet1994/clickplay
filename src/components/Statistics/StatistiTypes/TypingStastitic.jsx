@@ -27,6 +27,9 @@ export const TypingStastitic = ({ stats }) => {
               Timer:{" "}
               <span
                 style={{
+                  fontSize: "20px",
+                  fontWeight: "bold",
+                  color: "orange",
                   padding: "5px 22px",
                   background: "#2e3236",
                   borderRadius: "5px",

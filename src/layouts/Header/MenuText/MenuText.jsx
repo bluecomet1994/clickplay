@@ -1,7 +1,6 @@
 import React from "react";
-import { useNavigate, useLocation } from "react-router-dom";
-import useOperator from "@/hooks/rootContext/useOperator";
 import { useRouter } from "next/router";
+import useOperator from "@/hooks/rootContext/useOperator";
 
 export const MenuText = ({ links, type, changeTestType }) => {
 
@@ -9,7 +8,7 @@ export const MenuText = ({ links, type, changeTestType }) => {
 
   const goTo = (to, defTime) => {
     changeTestType(to, defTime);
-    router.push(to);
+    router.replace(to);
   };
   return (
     <div>
@@ -17,7 +16,7 @@ export const MenuText = ({ links, type, changeTestType }) => {
         {links.map((el, index) => (
           <li
             className="HeaderMenuTypes"
-            onClick={() => goTo(el.type, el.defTime)}
+            onClick={() => goTo(el.href, el.defTime)}
             key={el.id}
             style={{
               color: router.pathname.includes(el.type) ? "#ADE0E4" : "white",
