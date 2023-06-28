@@ -57,7 +57,7 @@ export const Timer = ({ changeTimer, timer, type }) => {
   return (
     <div className="game-options">
       <div className="option-lists">
-        {router.pathname.includes("Typing") ? (
+        {router.pathname.includes("typing-speed-test") ? (
           <>
             <div className="timerOptions">
               {timerOptions.map((el) => (
